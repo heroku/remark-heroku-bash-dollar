@@ -1,6 +1,6 @@
 {
   "name": "remark-heroku-bash-dollar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Matthew Origer <cli-squad@heroku.com>",
   "repository": {
     "type": "git",
