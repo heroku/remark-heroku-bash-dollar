@@ -4,7 +4,7 @@
   "author": "Matthew Origer <cli-squad@heroku.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KarateCowboy/remark-heroku-bash-dollar.git"
+    "url": "git+https://github.com/heroku/remark-heroku-bash-dollar.git"
   },
   "license": "ISC",
   "dependencies": {
@@ -33,7 +33,10 @@
     "test": "test"
   },
   "bugs": {
-    "url": "https://github.com/KarateCowboy/remark-heroku-bash-dollar/issues"
+    "url": "https://github.com/heroku/remark-heroku-bash-dollar/issues"
   },
-  "homepage": "https://github.com/KarateCowboy/remark-heroku-bash-dollar#readme"
+  "homepage": "https://github.com/heroku/remark-heroku-bash-dollar#readme",
+  "files": [
+    "lib"
+  ]
 }
