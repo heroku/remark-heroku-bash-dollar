@@ -1,7 +1,7 @@
 {
   "name": "@heroku/remark-heroku-bash-dollar",
   "description": "A remark-lint rule to make sure source code has a dollar sign before commands.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Matthew Origer",
   "bugs": {
     "url": "https://github.com/heroku/remark-heroku-bash-dollar/issues"
