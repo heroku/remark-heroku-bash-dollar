@@ -1,12 +1,11 @@
 {
   "name": "@heroku/remark-heroku-bash-dollar",
+  "description": "A remark-lint rule to make sure source code has a dollar sign before commands.",
   "version": "1.0.3",
   "author": "Matthew Origer",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/heroku/remark-heroku-bash-dollar.git"
+  "bugs": {
+    "url": "https://github.com/heroku/remark-heroku-bash-dollar/issues"
   },
-  "license": "ISC",
   "dependencies": {
     "remark": "^8.0.0",
     "remark-lint": "^5.2.0",
@@ -16,27 +15,28 @@
     "unist-util-is": "^2.1.1",
     "unist-util-visit": "^1.1.1"
   },
-  "scripts": {
-    "test": "./node_modules/.bin/jest",
-    "start": "remark .",
-    "build": "babel src -d lib"
-  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "jest": "^21.1.0",
     "remark-cli": "^2.1.0",
     "remark-lint": "^5.2.0"
   },
-  "description": "A remark-lint rule to make sure source code has a dollar sign before commands.",
-  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
-  "bugs": {
-    "url": "https://github.com/heroku/remark-heroku-bash-dollar/issues"
-  },
-  "homepage": "https://github.com/heroku/remark-heroku-bash-dollar#readme",
   "files": [
     "lib"
-  ]
+  ],
+  "homepage": "https://github.com/heroku/remark-heroku-bash-dollar#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heroku/remark-heroku-bash-dollar.git"
+  },
+  "scripts": {
+    "prepare": "babel src -d lib",
+    "start": "remark .",
+    "test": "./node_modules/.bin/jest"
+  }
 }
