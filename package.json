@@ -1,7 +1,7 @@
 {
-  "name": "remark-heroku-bash-dollar",
+  "name": "@heroku/remark-heroku-bash-dollar",
   "version": "1.0.3",
-  "author": "Matthew Origer <cli-squad@heroku.com>",
+  "author": "Matthew Origer",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heroku/remark-heroku-bash-dollar.git"
